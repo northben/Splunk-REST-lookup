@@ -21,6 +21,7 @@
 #     OTHER DEALINGS IN THE SOFTWARE.
 
 from UserDict import DictMixin
+from six.moves import zip
 
 
 class OrderedDict(dict, DictMixin):
